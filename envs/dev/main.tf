@@ -1,4 +1,5 @@
 # Initial dev environment eks setup cluster
+#This is a basic setup for the dev environment. It includes a VPC, EKS cluster, RDS instance, ECR repositories, IAM roles, and Secrets Manager secrets. You can customize the configuration as needed for your specific use case.
 
 data "aws_caller_identity" "current" {}
 
